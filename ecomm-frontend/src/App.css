@@ -1,0 +1,188 @@
+.blackBackground {
+  background-color: black;
+  min-height: 100vh; /* Changed from height to min-height */
+  width: 100vw;
+}
+.navigation{
+  display: flex;
+  size: 100px;
+  height: 5vh;
+  width:100vw;
+  flex-direction: row;
+  
+
+}
+.iconHolder{
+  height: 100%;
+  width: 100%;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+.menu{
+  height: 100%;
+  width: 100%;
+  flex:9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.menuItem{
+  display: flex;
+  height: 6vw;
+  width: 6vw;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size:small ;
+}
+.hero{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.flagShip{
+  font-size:5rem;
+  color: white;
+
+}
+.tagline{
+  color: white;
+  font-size: large;
+}
+.hero video{
+  width:60vw;
+  height: 70vh;
+
+}
+/* 3D Model Section */
+.model-section {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 5rem 2rem;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.faq-question {
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 4rem 2rem;
+  background-color: #111;
+  color: white;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #333;
+}
+/* Shop Page Styles */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  color: black;
+}
+
+.product-card {
+  background:gray;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.product-price {
+  color: #2d2d2d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product-category {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-description {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.loading, .error {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+

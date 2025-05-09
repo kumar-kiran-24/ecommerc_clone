@@ -1,0 +1,9 @@
+{ poducts(first: 100, channel: "channel-pln") {edges {node {id name decription
+        slug
+        category {
+          id
+        } 
+      }
+    }
+  }
+}
